@@ -17,8 +17,14 @@
 <table class='table'>
 
 {% for house in house_list %}
-	<tr><td>{{house.title}}</td><td>{{house.content}}</td>
+	<tr><td>{{house.title}}</td>
+	<td>
+	{% autoescape off %}
+    		1<br/>{{ house.content |safe}}
+	{% endautoescape %}
+	</td>
 	</tr>
+{% endfor %}
 
 </table>
 </body>

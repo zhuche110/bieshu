@@ -25,7 +25,7 @@ SECRET_KEY = '&dbc!a!s7$bgjd_y5#bus*0)e9lwc-^w!%tea)#2tqa^6w4e3c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'192.168.1.108']
+ALLOWED_HOSTS = [u'192.168.1.108',u'10.60.32.4']
 
 
 # Application definition
@@ -124,8 +124,8 @@ STATIC_ROOT=os.path.join(BASE_DIR,'static_root')
 STATIC_URL = '/static/'
 STATICFILES_DIRS=((os.path.join(BASE_DIR,'static')),)
 CKEDITOR_JQUERY_URL = 'http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
+MEDIA_URL = '/static/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/media/')
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 CKEDITOR_CONFIGS = {
     'default': {

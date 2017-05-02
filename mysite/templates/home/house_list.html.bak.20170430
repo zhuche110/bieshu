@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/mycss.css">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<!--<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+      <!--[if lt IE 9]>
+         <script src="/static/bootstrap-3.3.7-dist/js/html5shiv.js"></script>
+         <script src="/static/bootstrap-3.3.7-dist/js/respond.min.js"></script>
+      <![endif]-->
+      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+      <script src="/static/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+      <!-- 包括所有已编译的插件 -->
+      <title>别墅图纸大全-追求美好生活</title>
+   </head>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation" >
+<br/>
+    <div class="container">
+    <div class="navbar-header" >
+        <a class="navbar-brand" href="#"><b>别墅图纸专家</b></a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="active "><a href="#"> 一层别墅 </a></li>
+            <li><a href="#">两层别墅</a></li>
+		<li><a href="#">三层别墅</a></li>
+		<li><a href="#">四层别墅</a></li>
+		 <li><a href="#">双拼别墅</a></li>
+		<li><a href="#">联排别墅</a></li>
+
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<div class="container">
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133483&di=d7ca6eda155b276e7d2f24e2c9d2f1f0&imgtype=jpg&er=1&src=http%3A%2F%2Fimage.zh51home.com%2Fnews%2FGeneralPictures%2FMiniatures%2F187a11ad-d3a6-4020-997f-4c2fec52e5b1.jpg"
+                 alt="通用的占位符缩略图">
+	 <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 11</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+	</div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://f11.baidu.com/it/u=2888033366,752224792&fm=72"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 22</b></h5>
+		图纸编号:333<br/>
+		售价:20积分<br/>
+		下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133090&di=3a8b636c52c5a8649eca751979d9515a&imgtype=jpg&er=1&src=http%3A%2F%2Fcache.banjiajia.com%2Fa%2Fforum%2F201502%2F27%2F090313sic5dc74coqdorvq.jpg"
+                 alt="通用的占位符缩略图">
+	            <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 33 </b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1493538754318&di=5c94fb65a8dc7edfae663f48a6c5142b&imgtype=0&src=http%3A%2F%2Fimg21.house365.com%2Fnjnewhouse%2F2014%2F09%2F18%2F1411023541541a82b55f447.jpg"
+                 alt="通用的占位符缩略图">
+	            <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 44</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+	</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133483&di=d7ca6eda155b276e7d2f24e2c9d2f1f0&imgtype=jpg&er=1&src=http%3A%2F%2Fimage.zh51home.com%2Fnews%
+2FGeneralPictures%2FMiniatures%2F187a11ad-d3a6-4020-997f-4c2fec52e5b1.jpg"
+                 alt="通用的占位符缩略图">
+         <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万  211</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://f11.baidu.com/it/u=2888033366,752224792&fm=72"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 222</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133090&di=3a8b636c52c5a8649eca751979d9515a&imgtype=jpg&er=1&src=http%3A%2F%2Fcache.banjiajia.com%2Fa%2F
+forum%2F201502%2F27%2F090313sic5dc74coqdorvq.jpg"
+                 alt="通用的占位符缩略图">
+                    <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 233 </b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+</div>
+
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133090&di=3a8b636c52c5a8649eca751979d9515a&imgtype=jpg&er=1&src=http%3A%2F%2Fcache.banjiajia.com%2Fa%2F
+forum%2F201502%2F27%2F090313sic5dc74coqdorvq.jpg"
+                 alt="通用的占位符缩略图">
+                    <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 233 </b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+	</div>
+
+    </div>
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133483&di=d7ca6eda155b276e7d2f24e2c9d2f1f0&imgtype=jpg&er=1&src=http%3A%2F%2Fimage.zh51home.com%2Fnews%
+2FGeneralPictures%2FMiniatures%2F187a11ad-d3a6-4020-997f-4c2fec52e5b1.jpg"
+                 alt="通用的占位符缩略图">
+         <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 244 </b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://f11.baidu.com/it/u=2888033366,752224792&fm=72"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 </b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133090&di=3a8b636c52c5a8649eca751979d9515a&imgtype=jpg&er=1&src=http%3A%2F%2Fcache.banjiajia.com%2Fa%2F
+forum%2F201502%2F27%2F090313sic5dc74coqdorvq.jpg"
+                 alt="通用的占位符缩略图">
+                    <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+
+</div>
+
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133090&di=3a8b636c52c5a8649eca751979d9515a&imgtype=jpg&er=1&src=http%3A%2F%2Fcache.banjiajia.com%2Fa%2F
+forum%2F201502%2F27%2F090313sic5dc74coqdorvq.jpg"
+                 alt="通用的占位符缩略图">
+                    <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 233 </b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133483&di=d7ca6eda155b276e7d2f24e2c9d2f1f0&imgtype=jpg&er=1&src=http%3A%2F%2Fimage.zh51home.com%2Fnews%
+2FGeneralPictures%2FMiniatures%2F187a11ad-d3a6-4020-997f-4c2fec52e5b1.jpg"
+                 alt="通用的占位符缩略图">
+         <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万 4455</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://f11.baidu.com/it/u=2888033366,752224792&fm=72"
+                 alt="通用的占位符缩略图">
+            <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494133090&di=3a8b636c52c5a8649eca751979d9515a&imgtype=jpg&er=1&src=http%3A%2F%2Fcache.banjiajia.com%2Fa%2F
+forum%2F201502%2F27%2F090313sic5dc74coqdorvq.jpg"
+                 alt="通用的占位符缩略图">
+                    <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万5</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1493538754318&di=5c94fb65a8dc7edfae663f48a6c5142b&imgtype=0&src=http%3A%2F%2Fimg21.house365.com%2Fnjnewhouse%2F2014%2F09%2F18%2F1411023541541a82b55f447.jpg"
+                 alt="通用的占位符缩略图">
+                    <div class="caption">
+                <h5 class=text-center><b>碧桂园十里银滩海景房仅售30万4</b></h5>
+                图纸编号:333<br/>
+                售价:20积分<br/>
+                下载次数:50次
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container"> 
+    <div class="navbar-header">
+<br/>
+<address>
+        <strong>广东图纸专家有限公司</strong><br>
+        007 street<br>
+        Some City, State XXXXX Some City, State XXXXX  Some City, State XXXXX
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+<address>
+        <strong>Full Name</strong><br>
+        <a href="mailto:#">mailto@somedomain.com</a>
+</address>
+    </div>
+	</div>
+	</nav>
+</div>
+
+
+
+
+</body>
+</html>

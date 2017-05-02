@@ -31,7 +31,7 @@
 <br/>
     <div class="container">
     <div class="navbar-header" >
-        <a class="navbar-brand" href="/"><b>别墅图纸专家</b></a>
+        <a class="navbar-brand" href="#"><b>别墅图纸专家</b></a>
     </div>
     <div>
         <ul class="nav navbar-nav">
@@ -48,27 +48,23 @@
 </nav>
 
 <div class="container">
-<div class='row'>
-
-
 {% for house in house_list %}
 	{% if  forloop.counter|divisibleby:"4"   %}
 		<div class="row">
 	{% endif%}
 	
-	<div class="col-sm-6 col-md-3" style="margin-right:-20px;margin-top:-30px;padding:10px">
-			<table class='table table-bordered'>
-			<tr>
-			<td>
+	<div class="col-sm-6 col-md-3">
+			 <table class='table table-bordered'>
+			<tr><td>
 			{% for photo in photo_list %}
 				{% if photo.house.id ==  house.id and photo.if_cover == '1' %}
-					<a href=/home/house_detail/{{house.id}}/><img src="/static/media/{{photo.images}}" alt="{{house.title}}" height=200px width=100% ></a> &nbsp;
+					<img src="/static/media/{{photo.images}}" alt="{{house.title}}" height=200px width=100% >&nbsp;
 				{% endif%}
 			{%endfor%}
 			 <center><b>{{house.title}}</b></center>
 			图纸编号:{{house.id}}<br/>
-			售价:{{house.down_price}}积分<br/>
-			下载次数:50次 
+			售价:20积分<br/>
+			下载次数:50次
 			</td>
 			</tr>
 			</table>
@@ -80,7 +76,7 @@
 	
 
 
-</div>
+
 
 
 

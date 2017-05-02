@@ -3,6 +3,7 @@ from home.models import House,Photo
 #class PhotoInline(admin.TabularInline):
 class PhotoInline(admin.StackedInline):
 	model = Photo
+	extra=1
 
 class HouseAdmin(admin.ModelAdmin):
 	inlines = [PhotoInline]

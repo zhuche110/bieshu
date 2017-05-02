@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+      <!--[if lt IE 9]>
+         <script src="/static/bootstrap-3.3.7-dist/js/html5shiv.js"></script>
+         <script src="/static/bootstrap-3.3.7-dist/js/respond.min.js"></script>
+      <![endif]-->
+      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <!-- 包括所有已编译的插件 -->
+      <title>别墅图纸大全-追求美好生活</title>
+   </head>
+<body>
+<div class="container">
+   <div class="row">
+      <div class="col-lg-2">
+	<table class='table'>
+	{% for house in house_list %}
+        <tr><td>{{house.title}}</td>
+        </tr>
+	{% endfor %}
+	</table>	
+	</div>
+	<div class="col-lg-8">
+	<table class='table'>
+	{% for house in house_list %}
+	<tr><td>{{house.content |safe}}</td></tr>
+	{% endfor %}
+	 </table>
+	</div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -14,6 +14,8 @@ class House(models.Model):
 	content=RichTextField('正文',max_length=10000,)
 	floor_num=models.CharField('别墅层数',choices=floor_num_choices,max_length=20)
 	floor_area=models.CharField('占地面积',choices=floor_area_choices,max_length=20)
+	down_price=models.IntegerField('下载积分',default=0)
+	upload = models.FileField(upload_to='static/uploads',max_length=100,blank=True)
 	create_date=models.DateField(auto_now_add=True)
 	update_date=models.DateField(auto_now=True)
 	
@@ -29,7 +31,7 @@ class Photo(models.Model):
 	if_cover=models.CharField('是否设置为封面图片',max_length=10,choices=if_cover_choices,default='0')
 	
 	def __unicode__(self):
-		return self.title
+		return str(self.id)+self.title
 	
 '''
 class PhotoInline(admin.TabularInline):

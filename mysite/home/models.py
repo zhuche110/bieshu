@@ -26,7 +26,8 @@ class Photo(models.Model):
 	if_cover_choices=(('1','是'),('0','否'),)
 	house=models.ForeignKey(House)
 	images=models.ImageField(upload_to='static/photos')
-	title=models.CharField('图片说明',max_length=100,blank=True)
+	title=models.CharField('图片标题',max_length=50,blank=True)
+	alt=models.CharField('图片说明',max_length=100,blank=True)
 	order=models.CharField('排序标志',max_length=10,default=0)
 	if_cover=models.CharField('是否设置为封面图片',max_length=10,choices=if_cover_choices,default='0')
 	

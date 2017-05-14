@@ -31,7 +31,7 @@
 <br/>
     <div class="container">
     <div class="navbar-header" >
-        <a class="navbar-brand" href="#"><b>别墅图纸专家</b></a>
+        <a class="navbar-brand" href="/"><b>别墅图纸专家</b></a>
     </div>
     <div>
         <ul class="nav navbar-nav">
@@ -56,9 +56,9 @@
 			<h2 class='text-center'>{{house_detail.title}}</h2>
 		</h3>
 	</div>
-	<div class="panel-body">
+	<div class="panel-body" >
 		{% for photo in photo_list %}
-        		<img src='/static/media/{{photo.images}}' class='img-responsive'></img>
+        		<img src='/static/media/{{photo.images}}' class='img-thumbnail' ></img>
 		{% endfor%}
 	</div>
 </div>

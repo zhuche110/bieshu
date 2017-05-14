@@ -26,21 +26,20 @@
       <title>别墅图纸大全-追求美好生活</title>
    </head>
 <body>
-
-<nav class="navbar navbar-default navbar-static-top" role="navigation"  style='background-color:yellow;'>
 <br/>
+<nav class="navbar navbar-default navbar-static-top" role="navigation"  style='background-color:#FFFFFF'>
     <div class="container">
     <div class="navbar-header" >
-        <a class="navbar-brand" href="/"><b>别墅图纸专家</b></a>
+        <div class="navbar-brand"><a href=/>  <b><font color='#01AF63'> 7别墅-别墅图纸专家 </font> </b> </a> </div>
     </div>
-    <div>
-        <ul class="nav navbar-nav">
-            <li class="active "><a href="#"> 一层别墅 </a></li>
-            <li><a href="#">两层别墅</a></li>
-		<li><a href="#">三层别墅</a></li>
-		<li><a href="#">四层别墅</a></li>
-		 <li><a href="#">双拼别墅</a></li>
-		<li><a href="#">联排别墅</a></li>
+    <div >
+        <ul class="nav nav-tabs">
+            <li ><a href="#"> <b>一层别墅  </b> </a>   </li>
+            <li><a href="#"> <b>两层别墅 </b></a></li>
+		<li>  <a href="#"> <b>三层别墅 </b> </a></li>
+		<li><a href="#"> <b>四层别墅 </b> </a></li>
+		 <li><a href="#"> <b>双拼别墅 </b> </a></li>
+		<li> <a href="#"> <b>联排别墅 </b> </a></li>
 
         </ul>
     </div>
@@ -48,6 +47,7 @@
 </nav>
 
 <div class="container">
+<br/>
 <div class='row'>
 
 
@@ -62,7 +62,8 @@
 			<td>
 			{% for photo in photo_list %}
 				{% if photo.house.id ==  house.id and photo.if_cover == '1' %}
-					<a href=/home/house_detail/{{house.id}}/><img src="/static/media/{{photo.images}}" alt="{{house.title}}" height=200px width=100% ></a> &nbsp;
+					<a href=/home/house_detail/{{house.id}}/>
+					<img src="/static/media/{{photo.images}}" alt="{{house.title}}" height=200px width=100% ></a> &nbsp;
 				{% endif%}
 			{%endfor%}
 			 <center><b>{{house.title}}</b></center>

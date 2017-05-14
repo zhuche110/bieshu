@@ -8,6 +8,7 @@ def index(request):
 	house_list=House.objects.all()	
 	photo_list=Photo.objects.all()
 	context={'house_list':house_list,'photo_list':photo_list}
+	#return render(request,"home/house_list2.html",context)
 	return render(request,"home/house_list.html",context)
 	
 	#return HttpResponse('hello world')

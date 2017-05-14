@@ -1,8 +1,24 @@
 {%extends "home/house_base.html"%}
 {% block content %}
+<style >
+
+      .carousel{
+        height:600px;
+       }
+
+      .carousel .item{
+        max-height:600px;
+      }
+      .carousel .item img{
+	 max-height:600px;
+        width:100%;
+      }
+
+</style>
 <div class="container">
         <div class=row>
 
+<!--
 <div class="panel panel-default">
         <div class="panel-heading">
                 <h3 class="panel-title">
@@ -15,6 +31,52 @@
                 {% endfor%}
         </div>
 </div>
+
+-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		 {% for photo in photo_list %}
+			{% if forloop.counter0 == 0 %}
+				<li data-target="#myCarousel" data-slide-to="{{forloop.counter0}}" class="active"></li>
+			{% else %}
+				<li data-target="#myCarousel" data-slide-to="{{forloop.counter0}}"></li>
+			{% endif %}
+		{% endfor %}
+	</ol> 
+		<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		{% for photo  in photo_list %}
+			{%if  forloop.counter0 == 0 %}
+				<div class="item active">
+				<img src="/static/media/{{photo.images}}" class='center-block'   alt="First slide">
+				<div class="carousel-caption"> 标题 {{photo.id}} </div>
+				</div>
+			{%else%}
+				<div class="item" >
+				<img src="/static/media/{{photo.images}}" class='center-block'  alt="First slide"> 
+				<div class="carousel-caption"> 标题 {{photo.id}} </div>
+				</div>
+			{%endif%}
+		{%endfor%}
+				
+	</div>
+
+
+	<!-- 轮播（Carousel）导航 -->
+	<a class="carousel-control left" href="#myCarousel" 
+	   data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#myCarousel" 
+	   data-slide="next">&rsaquo;</a>
+	
+
+
+
+</div> 
+
+
+
 
 
 </div>

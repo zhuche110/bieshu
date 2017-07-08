@@ -1,0 +1,5 @@
+--2017-05-15 23:26:03--  http://127.0.0.1:8000/
+Connecting to 127.0.0.1:8000... connected.
+HTTP request sent, awaiting response... 502 ‘wget-log’
+2017-05-15 23:26:42 ERROR 502: Bad Gateway.
+

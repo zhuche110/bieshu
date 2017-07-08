@@ -25,7 +25,7 @@ SECRET_KEY = '&dbc!a!s7$bgjd_y5#bus*0)e9lwc-^w!%tea)#2tqa^6w4e3c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'123.207.64.185',u'192.168.1.108',u'10.60.32.4','123.207.64.18']
+ALLOWED_HOSTS = [u'123.207.64.185',u'192.168.1.108',u'10.60.32.4','123.207.64.18','10.104.89.198','127.0.0.1']
 
 
 # Application definition

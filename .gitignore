@@ -5,3 +5,4 @@
 *.egg-info
 dist
 build
+static/media/static/photos/

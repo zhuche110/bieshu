@@ -19,22 +19,6 @@
 <div class="container">
         <div class=row>
 
-<!--
-<div class="panel panel-default">
-        <div class="panel-heading">
-                <h3 class="panel-title">
-                        <h2 class='text-center'>{{house_detail.title}}</h2>
-                </h3>
-        </div>
-        <div class="panel-body" >
-                {% for photo in photo_list %}
-                        <img src='/static/media/{{photo.images}}' class='img-thumbnail center-block' width=80% ></img>
-                {% endfor%}
-        </div>
-</div>
-
--->
-
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<!-- 轮播（Carousel）指标 -->
 	<ol class="carousel-indicators">
@@ -70,12 +54,17 @@
 	   data-slide="prev">&lsaquo;</a>
 	<a class="carousel-control right" href="#myCarousel" 
 	   data-slide="next">&rsaquo;</a>
-	
-
-
 
 </div> 
 
+<div class="panel panel-info">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{house_detail.title  }}</h3>
+	</div>
+	<div class="panel-body">
+	{{house_detail.content |safe  }}
+	</div>
+</div>
 
 
 

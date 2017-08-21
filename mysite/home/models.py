@@ -34,10 +34,3 @@ class Photo(models.Model):
 	def __unicode__(self):
 		return str(self.id)+self.title
 	
-'''
-class PhotoInline(admin.TabularInline):
-	model = Photo
-     
-class HouseAdmin(admin.ModelAdmin):
-	inlines = [PhotoInline]
-'''
